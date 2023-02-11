@@ -1,0 +1,7 @@
+.intro__list {
+  list-style-type: none;
+  align-self: flex-start;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
