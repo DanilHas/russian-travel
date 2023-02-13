@@ -5,4 +5,9 @@
   line-height: 1.17;
   color: #fff;
   text-decoration: none;
+  transition: opacity .3s ease-in;
+}
+
+.header__lang-link:hover {
+  opacity: .8;
 }

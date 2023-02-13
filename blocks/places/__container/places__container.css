@@ -1,0 +1,7 @@
+.places__container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  row-gap: 80px;
+}
