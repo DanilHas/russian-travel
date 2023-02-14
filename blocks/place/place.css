@@ -13,3 +13,10 @@
     column-gap: 32px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: minmax(288px, 340px) minmax(min-content, max-content);
+    column-gap: 28px;
+  }
+}

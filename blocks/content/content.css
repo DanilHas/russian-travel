@@ -5,3 +5,9 @@
   width: 100%;
   gap: 92px;
 }
+
+@media screen and (max-width: 768px) {
+  .content {
+    gap: 88px;
+  }
+}
