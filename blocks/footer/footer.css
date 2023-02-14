@@ -1,12 +1,12 @@
-.lead {
+.footer {
+  width: 92.5%;
+  padding: 92px 0 24px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: calc(100% - 296px);
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {
-  .lead {
+  .footer {
     width: calc(100% - 96px);
   }
 }

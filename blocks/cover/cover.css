@@ -1,9 +1,9 @@
-.photo-grid {
+.cover {
   width: 92.5%;
 }
 
 @media screen and (max-width: 1024px) {
-  .photo-grid {
-    width: calc(100% - 96px);
+  .cover {
+    width: 100%;
   }
 }
