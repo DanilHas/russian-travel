@@ -7,16 +7,29 @@
   gap: 48px 40px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .place {
     grid-template-columns: minmax(288px, 440px) minmax(min-content, max-content);
     column-gap: 32px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .place {
     grid-template-columns: minmax(288px, 340px) minmax(min-content, max-content);
     column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'title'
+      'website'
+      'image'
+      'paragraph';
+    row-gap: 32px;
+    justify-items: center;
   }
 }
